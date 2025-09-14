@@ -36,7 +36,7 @@ pytest -q
 ```
 
 ## Notes on Implementation
-- **Selenium Manager** (bundled with Selenium 4.6+) auto-resolves the driver; no extra setup required.
+- **Selenium Manager** (bundled with Selenium 4.2+) auto-resolves the driver; no extra setup required.
 - Explicit waits via `WebDriverWait` for stable UI operations.
 - Assertions are **tight but resilient** (correct selectors, trimmed text comparisons).
 - API tests use `requests` and validate **status codes**, **schemas**, and **values**.
