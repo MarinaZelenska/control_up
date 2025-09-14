@@ -1,0 +1,6 @@
+pytest>=8.2
+selenium>=4.23
+python-dotenv>=1.0.1
+requests>=2.32
+pytest-xdist>=3.6
+pytest-html>=4.1.1
